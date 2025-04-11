@@ -1,0 +1,108 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+form#user-form {
+    background-color: white;
+    padding: 30px 50px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[list] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[list]:focus {
+    border-color: #5e60ce;
+    outline: none;
+    box-shadow: 0 0 5px #5e60ce88;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #5e60ce;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #3a0ca3;
+}
+
+/* Note Text */
+#note-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #c9184a;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    form#user-form {
+        padding: 20px;
+    }
+}
+
+.top-right-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.top-right-button:hover {
+    background-color: #45a049;
+}
