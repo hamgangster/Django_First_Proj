@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Success</title>
+    <link rel="stylesheet" href="{% static 'Login/style.css' %}">
+</head>
+<body>
+    <a href="{%url 'Main' %}" class="top-right-button">Home →</a>
+
+    <div class="container success-container">
+        <h1>✅ Successfully Logged In!</h1>
+        <p class="success-message">You have successfully logged in to your account.</p>
+    </div>
+</body>
+</html>
