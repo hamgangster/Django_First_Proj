@@ -1,39 +1,9 @@
-# Byte-compiled / optimized / DLL files
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
-venv/
-env/
-ENV/
-.venv/
-
-# Django-specific
-db.sqlite3
-*.log
+*.db
+*.sqlite3
 media/
 staticfiles/
-local_settings.py
-
-# Environment variables
+venv/
 .env
-.env.*
-
-# Migrations (keep migration folders, ignore compiled stuff)
-**/migrations/*.pyc
-**/migrations/__pycache__/
-
-# IDEs & Editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# macOS / Windows system files
 .DS_Store
-Thumbs.db
-
-# pytest cache
-.pytest_cache/
-
